@@ -1,0 +1,265 @@
+section.style {
+    background-color: #03CEA4;
+    height: 100vh;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 150px !important;
+}
+
+.text_color_1th {
+    color: #F1ED2C;
+}
+
+.text_color_2th {
+    color: #FF0000;
+}
+
+.text_color_3th {
+    color: #BBDB06;
+}
+
+
+div.center {
+    text-align: center;
+}
+
+div.back_color_2 {
+    background-color: #EAC435;
+}
+
+div.back_color_3 {
+    background-color: #FB4737;
+}
+
+article.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vl {
+    border-left: 4px solid #EAC435;
+    height: 80px;
+    margin: 0px;
+
+}
+
+img.img_iPhone14 {
+    height: 67vh;
+    width: 48vw;
+}
+
+img.img_SOS {
+    height: 21vh;
+    width: 20vw;
+}
+
+img.img_iSem {
+    height: 17vh;
+    width: 17vw;
+}
+
+img.img_Dim1 {
+    height: 79vh;
+    width: 42vw;
+}
+
+img.img_Dim2 {
+    height: 79vh;
+    width: 17vw;
+}
+
+img.img_A15 {
+    height: 41vh;
+    width: 43vw;
+}
+
+img.img_star {
+    height: 3vh;
+    width: 2vw;
+}
+
+img.img_social {
+    height: 14vh;
+    width: 14vw;
+}
+
+div.div_2th {
+    height: 7vh;
+    width: 40vw;
+}
+
+div.div_3th {
+    height: 30vh;
+    width: 38vw;
+}
+
+div.div_4th {
+    height: 8vh;
+    width: 37vw;
+}
+
+div.div_5th {
+    height: 25vh;
+    width: 78vw;
+
+    display: grid;
+    grid-template-areas:
+      'header img  '
+      'text_area img '
+      'text_area img ';
+    gap: 10px;
+    padding: 10px;
+}
+
+div.div_6th {
+    height: 25vh;
+    width: 46vw;
+
+    display: grid;
+    grid-template-areas:
+      'header img  '
+      'text_area img '
+      'text_area img ';
+    gap: 10px;
+    padding: 10px;
+}
+
+div.div_7th {
+    height: 25vh;
+    width: 23vw;
+}
+
+div.div_8th {
+    height: 25vh;
+    width: 23vw;
+
+}
+
+div.div_9th {
+    height: 60vh;
+    width: 36vw;
+}
+
+div.div_10th {
+    height: 32vh;
+    width: 24vw;
+}
+
+.item_data1 { grid-area: data1; }
+.item_data2 { grid-area: data2; }
+.item_data3 { grid-area: data3; }
+.item_data4 { grid-area: data4; }
+.item_data5 { grid-area: data5; }
+
+div.div_11th {
+    height: 19vh;
+    width: 87vw;
+
+    display: grid;
+    grid-template-areas:
+      'data1 data2 data3';
+    gap: 10px;
+    padding: 10px;
+}
+
+div.div_12th {
+    height: 41vh;
+    width: 93vw;
+    margin: 30px;
+}
+
+div.div_13th {
+    height: 14vh;
+    width: 56vw;
+    margin: 30px;
+}
+
+
+
+.item_headr { grid-area: header; }
+.item_img { grid-area: img; }
+.item_img2 { grid-area: img2; }
+.item_text { grid-area: text_area; }
+.item_link { grid-area: link; }
+
+
+section.section_2th {
+    display: grid;
+    grid-template-areas:
+      'header header header header header '
+      'img img img text_area text_area '
+      'img img img link link ';
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.item_feature1 { grid-area: feature1; }
+.item_feature2 { grid-area: feature2; }
+.item_feature3 { grid-area: feature3; }
+.item_feature4 { grid-area: feature4; }
+.item_feature5 { grid-area: feature5; }
+.item_feature6 { grid-area: feature6; }
+
+section.section_3th {
+    display: grid;
+    grid-template-areas:
+      'header header header  '
+      'feature1 feature1 feature1 '
+      'feature2 feature2 feature3 '
+      'feature4 feature5 feature6 ';
+    gap: 10px;
+    padding: 10px;
+}
+
+
+section.section_4th {
+    display: grid;
+    grid-template-areas:
+      'header header'
+      'img img2'
+      'img img2';
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.item_recensione1 { grid-area: recensione1; }
+.item_recensione2 { grid-area: recensione2; }
+.item_recensione3 { grid-area: recensione3; }
+.item_recensione4 { grid-area: recensione4; }
+.item_recensione5 { grid-area: recensione5; }
+.item_recensione6 { grid-area: recensione6; }
+
+section.section_5th {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'recensione1 recensione2 recensione3'
+      'recensione4 recensione5 recensione6';
+    gap: 10px;
+    padding: 10px;
+}
+
+.item_data_section1 { grid-area: data_section1; }
+.item_data_section2 { grid-area: data_section2; }
+.item_data_section3 { grid-area: data_section3; }
+
+
+section.section_6th {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'data_section1 data_section1 data_section1'
+      'data_section2 data_section2 data_section2'
+      'data_section3 data_section3 data_section3';
+    gap: 10px;
+    padding: 10px;
+}
+
+section.section_7th {
+    align-items: center;
+}
